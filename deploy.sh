@@ -1,7 +1,7 @@
 git add . &&
 git commit -m "$1" &&
 git push origin master &&
-ssh root@51.91.126.117 <<EOF
+ssh root@40.71.195.246 <<EOF
 cd hasksi &&
 git pull origin master &&
 stack build &&
