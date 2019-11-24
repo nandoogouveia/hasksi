@@ -1,0 +1,12 @@
+Usuario
+    nome  Text 
+    email Text
+    senha Text
+    UniqueEmailIx email 
+    deriving Show
+
+Aluno
+    nome   Text
+    ra     Text
+    dtNasc Day
+    deriving Show
